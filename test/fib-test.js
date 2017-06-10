@@ -18,6 +18,14 @@ describe('fib', function() {
       fib(1).should.equal(1);
     })
 
+    it('should be 1 for 2', function() {
+      fib(2).should.equal(1);
+    })
+
+    it('should be 3 for 3', function() {
+      fib(3).should.equal(3);
+    })
+
     // when you are feeling confident, uncomment the following tests
     // that are based on the function description
 
